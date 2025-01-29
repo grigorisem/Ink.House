@@ -1,0 +1,134 @@
+body {
+    background: #F4F6F5;
+    width: 100%;
+    max-width: 1440px;
+    max-height: 3746px;
+    margin: auto;
+}
+.Desktop_1440 {
+    background: #F4F6F5;
+    width: 100%;
+    max-width: 1440px;
+    max-height: 3746px;
+}
+
+.header {
+    background: #E1EDE6;
+    width: 100%;
+    max-width: 1440px;
+    height: 100px;
+    max-height: 100px;
+}
+
+.Frame_85 {
+    position: relative;
+    width: 143px;
+    height: 35px;
+    top: 33px;
+    left: 165px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+.Star_1 {
+    width: 35px;
+    height: 35px;
+}
+.InkHouse {
+    width: 100px;
+    height: 23px;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 23px;
+    color: #598D66;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Frame_134 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 470px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 24px;
+    left: 805px;
+    padding: 0px;
+    gap: 60px; 
+}
+.text_btn_0 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 130px;
+    height: 23px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2D35;
+    gap: 10px;
+}
+.text_btn_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 84px;
+    height: 23px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2D35;
+    gap: 10px;
+}
+.text_btn_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 54px;
+    height: 23px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2D35;
+    gap: 10px;
+}
+.text_btn_3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    gap: 30px;
+}
