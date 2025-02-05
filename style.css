@@ -1,26 +1,20 @@
 body {
     background: #F4F6F5;
     width: 100%;
-    max-width: 1440px;
-    max-height: 3746px;
     margin: auto;
 }
 .Desktop_1440 {
     background: #F4F6F5;
     width: 100%;
-    max-width: 1440px;
-    max-height: 3746px;
 }
 
 .header {
     background: #E1EDE6;
     width: 100%;
-    max-width: 1440px;
     height: 100px;
-    max-height: 100px;
 }
 
-.Frame_85 {
+.header_logo {
     position: relative;
     width: 143px;
     height: 35px;
@@ -46,25 +40,19 @@ body {
     font-style: normal;
     line-height: 23px;
     color: #598D66;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
-.Frame_134 {
+.header_navbar {
+
     display: flex;
-    position: relative;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
+    gap: 60px;
+    position: absolute;
     width: 470px;
     height: 24px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    height: 24px;
-    left: 805px;
-    padding: 0px;
-    gap: 60px; 
+    right: 165px;
+    top: 38px;
 }
 .text_btn_0 {
     display: flex;
@@ -91,9 +79,6 @@ body {
     padding: 0px;
     width: 84px;
     height: 23px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -133,9 +118,8 @@ body {
     gap: 30px;
 }
 .hero {
-    max-width: 1440px;
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 620px;
     left: 0px;
     top: 100px;
@@ -143,14 +127,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px 80px;
+    /*padding: 20px 80px; */
     gap: 6px;
 }
 .bird {
     position: absolute;
     width: 540px;
     height: 621px;
-    left: 150px;
+    left: 705px;
     top: 0px;
     background: url(assets/bird.png);
 }
@@ -158,7 +142,7 @@ body {
     position: absolute;
     width: 540px;
     height: 331px;
-    left: 720px;
+    left: 1275px;
 }
 .text1 {
     position: absolute;
@@ -215,7 +199,7 @@ body {
     width: 1100px;
     height: 1564px;
     top: 90px;
-    left: 165px;
+    left: 705px;
     gap: 35px;
     display: flex;
     flex-direction: row;
@@ -950,10 +934,13 @@ body {
     height: 65px;
 }
 .promo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     position: relative;
     width: 1440px;
+    left: 535px;
     height: 574px;
-    left: 0px;
     top: 150px;
     background: url(assets/promo.png);
 }
@@ -1036,7 +1023,7 @@ body {
     position: relative;
     width: 1110px;
     height: 440px;
-    left: 165px;
+    left: 705px;
     top: 200px;
     display: flex;
     flex-direction: row;
@@ -1107,14 +1094,14 @@ body {
     background: url(assets/picture3.png);
 }
 .footer {
-    width: 1440px;
+    width: 100%;
     height: 168px;
     background: #E1EDE6;
     position: absolute;
     top: 3578px;
 }
 
-.Frame_85 {
+.Frame_86 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1187,11 +1174,10 @@ body {
     padding: 0px;
     gap: 60px;
     position: absolute;
-    width: 445px;
+    width: 500px;
     height: 122px;
-    right: 545px;
     top: 23px;
-    left: 450px;
+    left: 950px;
 }
 .Frame_259 {
     display: flex;
@@ -1346,7 +1332,7 @@ body {
     position: absolute;
     width: 132px;
     height: 68px;
-    left: 700px;
+    right: 165px;
     top: 23px;
 }
 .Frame_258 {
@@ -1399,4 +1385,183 @@ body {
     font-size: 12px;
     line-height: 120%;
     color: #86928B;
+}
+@media only screen and (max-width: 768px){
+    .header_logo {
+        position: relative;
+        width: 143px;
+        height: 35px;
+        top: 33px;
+        left: 39px;
+        gap: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    }
+    .header_navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 60px;
+        position: absolute;
+        width: 445px;
+        height: 24px;
+        left: 284px;
+        top: 38px;
+    }
+    .text_btn_0 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 130px;
+        height: 23px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #2C2D35;
+        gap: 10px;
+    }
+    .text_btn_1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 84px;
+        height: 23px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #2C2D35;
+        gap: 10px;
+    }
+    .text_btn_2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 54px;
+        height: 23px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #2C2D35;
+        gap: 10px;
+    }
+    .text_btn_3 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 24px;
+        height: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        gap: 30px;
+    }
+    .hero {
+        position: absolute;
+        width: 768px;
+        height: 380px;
+        left: 0px;
+        top: 100px;
+    }
+    .bird {
+        position: absolute;
+        width: 330px;
+        height: 380px;
+        left: 39px;
+        top: 0px;
+        background: url(assets/bird2.png);
+    }
+    .Frame_135 {
+        position: absolute;
+        width: 330px;
+        height: 308px;
+        left: 399px;
+        top: 35px;
+    }
+
+
+    .text1 {
+    
+        position: absolute;
+        width: 330px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 100%;
+        color: #2C2D35;
+    }
+    .text2 {
+        position: absolute;
+        width: 330px;
+        height: 108px;
+        left: 0px;
+        top: 100px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #86928B;
+    }
+    .btn {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 60px;
+        gap: 6px;
+        position: absolute;
+        width: 210px;
+        height: 60px;
+        left: 0px;
+        top: 248px;
+        border: 1px solid #598D66;
+    }
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 30px;
+        position: absolute;
+        width: 690px;
+        height: 2323px;
+        left: 39px;
+        top: 550px;
+    }
+    .drawings {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 30px;
+        width: 690px;
+        height: 2250px;
+
+    }
+
 }
