@@ -46,6 +46,10 @@ header{
 	margin: 10px;
 	
 }
+.menu-button-cart {
+    padding: 10px;
+	margin: 10px;
+}
 .mobmenu{
 	display: none;
 }
@@ -112,26 +116,38 @@ footer {
    top: 10px;
 }
 .hero {
-    position: relative;
     width: 100%;
     height: 620px;
-    left: 0px;
-    top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     /*padding: 20px 80px; */
-    gap: 6px;
 }
 .bird {
-    position: absolute;
     width: 540px;
     height: 621px;
-    left: 300px;
-    top: 0px;
     background: url(assets/bird.png);
 }
+.hero h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    color: #2C2D35;
+}
+.hero h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928B;
+}
+
+
+
 .Frame_135 {
     position: absolute;
     width: 540px;
