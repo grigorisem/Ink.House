@@ -117,7 +117,6 @@ footer {
 }
 .hero {
     width: 100%;
-    max-width: 1440px;
     height: 620px;
     display: flex;
     flex-direction: row;
@@ -200,7 +199,8 @@ footer {
     color: #fff;
 }
 .catalog {
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -217,6 +217,7 @@ footer {
     font-family: 'Raleway';
     font-size: 40px;
     font-weight: 500;
+    padding-left: 20px;
     color: #2C2D35;
 }
 
@@ -614,7 +615,6 @@ footer {
         height: 502px;
         margin-top: 50px;
         background: url(assets/promo3.png);
-        flex-direction: column;
     }
     .promo-inner {
         display: flex;
@@ -771,6 +771,7 @@ footer {
     
     .catalog-bar-text{
         margin: 0 auto;
+        padding: 0px;
         width: 194px;
         height: 33px;
         font-family: 'Raleway';
@@ -799,22 +800,40 @@ footer {
     }
     .cards-wrapper {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 30px;
     }
     
     .catalog-bar-text {
         font-size: 30px;
+        margin: 0px;
     }
 
     .catalog-btn {
         font-size: 16px;
     }
-
+    .drawings {
+        padding: 0px;
+    }
+    .card {
+        width: 330px;
+    }
+    .main-text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .footer-block-2-1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
 }
 
 
 
-@media screen and (max-width: 1099px) {
+/*@media screen and (max-width: 1099px) {
     
     .catalog {
         width: 100%;
@@ -874,4 +893,8 @@ footer {
     .catalog-btn {
         font-size: 16px;
     }
-} 
+} */
+
+
+
+
