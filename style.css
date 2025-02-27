@@ -126,8 +126,10 @@ footer {
 }
 
 .bird {
-    width: 540px;
+    width: 100%;
+    max-width:540px;
     height: 100%;
+    max-height: 100%;
     background: url(assets/bird.png) no-repeat center center;
     background-size: cover;
 }
@@ -138,7 +140,6 @@ footer {
     justify-content: center;
     align-items: flex-start;
     max-width: 540px;
-    width: 100%;
     padding-right: 20px;
     box-sizing: border-box;
 }
@@ -280,7 +281,6 @@ footer {
     margin-bottom: 10px;
 }
 .name {
-    height: 35px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
