@@ -232,7 +232,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.8em,1vw,0.9em);
     line-height: 21px;
     color: #86928B;
     margin-bottom: 10px;
@@ -241,7 +241,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: clamp(1.2em,2vw,1.5em);
     line-height: 35px;
     color: #2C2D35;
     margin-bottom: 5px;
@@ -251,7 +251,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.8em,1vw,0.9em);;
     line-height: 21px;
     color: #2C2D35;
     margin-bottom: 20px;
@@ -261,7 +261,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: clamp(1em,1vw,1.2em);;
     line-height: 28px;
     color: #598D66;
     margin-bottom: 15px;
@@ -280,7 +280,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: clamp(0.9em,1vw,1em);
     line-height: 23px;
     color: #598D66;
 }
@@ -294,7 +294,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
     margin: auto;
     height: 574px;
@@ -313,7 +313,8 @@ header{
     padding-left: 50px;
 }
 .promo-header {
-    width: 521px;
+    width: 100%;
+    max-width: 521px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -331,7 +332,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: clamp(1.2em,2vw,2em);;
     line-height: 100%;
     color: #F4F6F5;
 }
@@ -341,7 +342,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.8em,1vw,0.9em);
     line-height: 150%;
     color: #FFFFFF;
     margin-top: 30px;
@@ -350,7 +351,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.8em,1vw,0.9em);
     line-height: 150%;
     color: #FFFFFF;
     margin-top: 20px;
@@ -360,17 +361,19 @@ header{
     justify-content: center;
     align-items: center;
     padding: 20px 60px;
-    width: 257px;
+    width: 100%;
+    max-width: 257px;
     height: 65px;
     gap: 6px;
     background: #EEDB6D;
     cursor: pointer;
     margin-top: 40px;
+    font-size: clamp(0.8em,1vw,0.9em);;
 }
 
 .team {
     height: 440px;
-    width: 1100px;
+    width: 100%;
     max-width: 1100px;
     margin: auto;
     margin-bottom: 100px;
@@ -390,14 +393,15 @@ header{
     background: none;
 }
 .team-info {
-    width: 635px;
+    width: 100%;
+    max-width: 635px;
     height: 272px;
 }
 .team-info h1 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: clamp(1.2em,2vw,2em);
     line-height: 110%;
     color: #2C2D35;
     margin-top: 0px;
@@ -407,7 +411,7 @@ header{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.8em,1vw,0.9em);
     line-height: 150%;
     color: #2C2D35;
     margin-top: 0px;
@@ -418,8 +422,6 @@ header{
     height: 80px;
     margin-bottom: 100px;
 }
-
-
 
 
 footer {
@@ -577,7 +579,8 @@ footer {
         height: 380px;
     }
     .hero-text {
-        width: 330px;
+        width: 100%;
+        max-width: 330px;
         height: 308px;
         padding-left: 0px;
     }
@@ -604,7 +607,8 @@ footer {
         padding-left: 39px;
     }
     .promo-header {
-        width: 450px;
+        width: 100%;
+        max-width: 450px;
         height: 60px;
         display: flex;
         justify-content: center;
@@ -617,7 +621,8 @@ footer {
         background: url(assets/star3.png);
     }
     .promo-header-text {
-        width: 370px;
+        width: 100%;
+        max-width: 370px;
         height: 60px;
         font-family: 'Raleway';
         font-style: normal;
@@ -628,7 +633,8 @@ footer {
     }
     .promo-text {
         margin-top: 30px;
-        width: 690px;
+        width: 100%;
+        max-width: 690px;
         height: 182px;
         font-family: 'Raleway';
         font-style: normal;
@@ -641,7 +647,6 @@ footer {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
         line-height: 150%;
         color: #FFFFFF;
         margin-top: 20px;
@@ -659,7 +664,6 @@ footer {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 20px;
         line-height: 23px;
         color: #2C2D35;
         cursor: pointer;
@@ -668,7 +672,7 @@ footer {
 
     .team {
         height: 825px;
-        width: 690px;
+        width: 100%;
         max-width: 690px;
         margin: auto;
         margin-top: 50px;
@@ -691,28 +695,29 @@ footer {
         background: none;
     }
     .team-info {
-        width: 690px;
+        width: 100%;
+        max-width: 690px;
         height: 281px;
     }
     .team-info h1 {
-        width: 211px;
+        width: 100%;
+        max-width: 211px;
         height: 33px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 30px;
         line-height: 110%;
         color: #2C2D35;
         margin-top: 0px;
         margin-bottom: 20px;
     }
     .team-info h2 {
-        width: 690px;
+        width: 100%;
+        max-width: 690px;
         height: 108px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
         line-height: 150%;
         color: #2C2D35;
         margin-top: 0px;
@@ -725,7 +730,8 @@ footer {
     }
 
     .catalog {
-        width: 690px;
+        width: 100%;
+        max-width: 690px;
         gap: 30px;
         display: flex;
         flex-direction: row;
@@ -733,7 +739,8 @@ footer {
         flex-direction: column;
     }
     .catalog-bar {
-        width: 690px;
+        width: 100%;
+        max-width: 690px;
         height: 43px;
         display: flex;
         align-items: center;
@@ -754,7 +761,6 @@ footer {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 30px;
         line-height: 110%;
         color: #2C2D35;
     }
@@ -763,7 +769,8 @@ footer {
         display: flex;
         justify-content: center;
         padding: 10px 20px;
-        width: 126px;
+        width: 100%;
+        max-width: 126px;
         height: 43px;
         background: #376B44;
         border-radius: 20px;
@@ -771,7 +778,6 @@ footer {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 20px;
         line-height: 23px;
         color: #F4F6F5;
     }
@@ -796,7 +802,6 @@ footer {
     }
     .main-text {
         font-weight: 500;
-        font-size: 20px;
         line-height: 23px;
     }
     .footer-block-2-1 {
