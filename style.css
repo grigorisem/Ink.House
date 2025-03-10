@@ -784,7 +784,7 @@ footer {
     }
     .cards-wrapper {
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        gap: 20px;
     }
     
     .catalog-bar-text {
