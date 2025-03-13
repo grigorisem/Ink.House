@@ -83,7 +83,7 @@ header{
     max-width:540px;
     height: 100%;
     max-height: 540px;
-    background: url(assets/bird.png) no-repeat center center;
+    background: url(assets/bird.png);
     background-size: cover;
     margin-right: 20px;
 }
@@ -201,8 +201,7 @@ header{
 .cards-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 колонки на больших экранах */
-    gap: 35px;
-    width: 100%;
+    gap: 20px;
 }
 
 .card {
@@ -746,17 +745,18 @@ footer {
         align-items: baseline;
         flex-direction: column;
         gap: 10px;
+        
     }
     .catalog-buttons {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         gap: 32px;
+        padding-left: 20px;
     }
     
     .catalog-bar-text{
         margin: 0 auto;
-        padding: 0px;
         width: 194px;
         height: 33px;
         font-family: 'Raleway';
@@ -794,9 +794,6 @@ footer {
 
     .catalog-btn {
         font-size: 16px;
-    }
-    .drawings {
-        padding: 0px;
     }
     .card {
         max-width: 330px;
@@ -844,14 +841,11 @@ footer {
         align-items: baseline;
         justify-content: center;
         flex-direction: column;
-        gap: 20px;
     }
     .catalog-buttons {
         justify-content: flex-start;
     }
-    .catalog {
-        max-width: 510px;
-    }
+    
 }
 
 
