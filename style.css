@@ -214,13 +214,16 @@ header{
 
 .catalog-btn {
     padding: 10px 20px;
-    background: #376B44;
+    background: #598D66;
     color: #F4F6F5;
     border-radius: 20px;
     font-size: clamp(0.9em,1vw,1em);
     font-weight: 500;
 }
-
+.catalog-btn.active {
+    background-color: #376B44; 
+    color: #fff;
+}
 .drawings {
     display: flex;
     justify-content: center;
