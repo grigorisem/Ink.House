@@ -79,7 +79,7 @@ header{
 }
 
 
-.bird {
+/*.bird {
     width: 100%;
     max-height: 620px;
     max-width:540px;
@@ -93,7 +93,26 @@ header{
     height: auto;
     background-size: contain;
     margin-right: 20px;
+} */
+
+.bird {
+    width: 100%;
+    max-width: 540px;
+    height: 621px;
+    max-height: 621px;
+    position: relative;
 }
+
+.bird img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+
+
 
 
 .hero-text {
@@ -175,13 +194,14 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 43px;
+    width: calc(100% - 40px);
+    margin: auto;
 }
 
 .catalog-bar-text {
     font-family: 'Raleway';
     font-size: clamp(1.2em,3vw,2em);
     font-weight: 500;
-    padding-left: 20px;
     color: #2C2D35;
 }
 
@@ -189,6 +209,7 @@ header{
     display: flex;
     justify-content: flex-end;
     gap: 32px;
+    cursor: pointer;
 }
 
 .catalog-btn {
@@ -291,6 +312,7 @@ header{
     font-size: clamp(0.9em,1vw,1em);
     line-height: 23px;
     color: #598D66;
+    cursor: pointer;
 }
 
 
@@ -579,11 +601,15 @@ footer {
 	.menu-button{
 		display: none;
 	}
-    /*.bird {
-        max-width: 330px;
+
+    .bird {
         width: 100%;
+        max-width: 540px;
         height: 380px;
-    }*/
+        max-height: 380px;
+        position: relative;
+    }
+
     .hero {
         width: 100%;
         height: 380px;
@@ -749,7 +775,7 @@ footer {
         flex-direction: column;
     }
     .catalog-bar {
-        width: 100%;
+        width: calc(100% - 40px);
         max-width: 690px;
         height: auto;
         display: flex;
@@ -763,7 +789,6 @@ footer {
         justify-content: flex-end;
         align-items: center;
         gap: 32px;
-        padding-left: 20px;
     }
     
     .catalog-bar-text{
